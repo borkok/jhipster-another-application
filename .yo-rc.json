@@ -33,7 +33,9 @@
     "jwtSecretKey": "Zjg3ODRlMTc3NTc1OTQ2ODdjZmRlODViNTViMGU0MjFmYWQ5NzBmYTNmZWE2NmQ2NzA4NWQ4ZDNmNGIwZmE1N2Q2MWNjNjFmOTZlNDJiYzI4Mzk5NDI0ZGU0MDdkMTZlZmQ2ZjdlZDFmYWI2OGFlNzRhNmUzZDk3YmE5ZjQ4Zjg=",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": []
+    "otherModules": [],
+    "herokuAppName": "jhipster-another-application",
+    "herokuDeployType": "git"
   },
   "git-provider": "GitHub",
   "git-company": "borkok",
