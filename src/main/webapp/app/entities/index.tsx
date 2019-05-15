@@ -12,6 +12,11 @@ import Task from './task';
 import Employee from './employee';
 import Job from './job';
 import JobHistory from './job-history';
+import Person from './person';
+import Profile from './profile';
+import HowOften from './how-often';
+import Diagnostic from './diagnostic';
+import Execution from './execution';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (
@@ -26,6 +31,11 @@ const Routes = ({ match }) => (
       <ErrorBoundaryRoute path={`${match.url}/employee`} component={Employee} />
       <ErrorBoundaryRoute path={`${match.url}/job`} component={Job} />
       <ErrorBoundaryRoute path={`${match.url}/job-history`} component={JobHistory} />
+      <ErrorBoundaryRoute path={`${match.url}/person`} component={Person} />
+      <ErrorBoundaryRoute path={`${match.url}/profile`} component={Profile} />
+      <ErrorBoundaryRoute path={`${match.url}/how-often`} component={HowOften} />
+      <ErrorBoundaryRoute path={`${match.url}/diagnostic`} component={Diagnostic} />
+      <ErrorBoundaryRoute path={`${match.url}/execution`} component={Execution} />
       {/* jhipster-needle-add-route-path - JHipster will routes here */}
     </Switch>
   </div>
